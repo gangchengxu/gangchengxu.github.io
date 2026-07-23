@@ -32,3 +32,15 @@ footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 @media(max-width:960px){.hero-side{max-width:650px}.name-lockup{align-items:flex-start}.name-cn{margin-top:.2em}.brand-name{gap:.35rem}.cv-grid{grid-template-columns:1fr}.cv-side{position:static}.conference-item{grid-template-columns:76px 1fr auto}}
 @media(max-width:650px){.poem-side{padding:18px}.poem-side blockquote{font-size:.94rem;line-height:1.7}.name-lockup{display:block}.name-cn{display:block;font-size:.34em;margin-top:.38em}.brand-cn{display:none}.conference-item{grid-template-columns:1fr;gap:8px}.conference-year{font-size:1.25rem}.status-badge{justify-self:start}.cv-entry{grid-template-columns:1fr;gap:4px}}
 @media print{.cv-side{position:static}.conference-item{break-inside:avoid}.print-button{display:none!important}}
+
+.profile-avatar {
+    margin: 24px 0;
+}
+
+.profile-avatar img {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 8px 18px rgba(0,0,0,0.08));
+}
