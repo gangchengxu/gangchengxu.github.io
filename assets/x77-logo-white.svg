@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
-  <title id="title">Gangcheng Xu abstract X logo</title>
-  <desc id="desc">An abstract X formed from a lower left seven and an upper right rotated seven.</desc>
-  <g fill="none" stroke="#f2f5e9" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M28 68 C49 72 64 70 79 66 C70 79 59 95 49 111 C42 122 35 134 29 149" stroke-width="13"/>
-    <path d="M102 31 C94 43 84 58 75 72 C67 84 59 96 51 109" stroke-width="12"/>
-    <path d="M75 72 C88 72 103 74 123 80 C132 83 141 87 151 94" stroke-width="12"/>
-  </g>
-</svg>
