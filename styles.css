@@ -44,3 +44,35 @@ footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-s
     display: block;
     filter: drop-shadow(0 8px 18px rgba(0,0,0,0.08));
 }
+.hero .name-lockup {
+  margin: 20px 0 24px;
+  font-size: clamp(4rem, 7vw, 6.8rem);
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+}
+
+
+.hero .name-en {
+  display: block;
+}
+
+.hero .name-cn {
+  display: inline-block;
+  margin-top: 18px;
+  margin-left: 16px;
+  font-size: 0.36em;
+  line-height: 1;
+  letter-spacing: 0;
+  vertical-align: bottom;
+}
+
+@media (max-width: 700px) {
+  .hero .name-lockup {
+    font-size: clamp(3.1rem, 14vw, 4.8rem);
+  }
+
+  .hero .name-cn {
+    margin-left: 10px;
+    font-size: 0.34em;
+  }
+}
