@@ -59,7 +59,7 @@ footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 
 .hero .name-en {
   display: block;
-  font-size: clamp(2.8rem, 4.5vw, 4.5rem);
+  font-size: clamp(2rem, 4.5vw, 4.5rem);
   line-height: 1;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -75,7 +75,7 @@ footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 
 @media (max-width: 700px) {
   .hero .name-en {
-    font-size: clamp(2.1rem, 9vw, 3rem);
+    font-size: clamp(1.6rem, 9vw, 3rem);
     white-space: normal;
   }
 
