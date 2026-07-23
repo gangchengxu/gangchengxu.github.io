@@ -44,3 +44,13 @@ footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-s
     display: block;
     filter: drop-shadow(0 8px 18px rgba(0,0,0,0.08));
 }
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.profile-intro {
+  margin: 0;
+}
