@@ -76,3 +76,55 @@ footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-s
     font-size: 0.34em;
   }
 }
+
+.hero .name-lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0 24px;
+  font-size: inherit;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.hero .name-en {
+  display: block;
+  font-size: clamp(3rem, 5vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+}
+
+.hero .name-cn {
+  display: block;
+  margin: 14px 0 0;
+  font-size: clamp(1.55rem, 2.2vw, 2.2rem);
+  line-height: 1.1;
+  letter-spacing: 0.08em;
+}
+
+.hero .name-lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0 24px;
+  font-size: inherit;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.hero .name-en {
+  display: block;
+  font-size: clamp(3rem, 5vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+}
+
+.hero .name-cn {
+  display: block;
+  margin: 14px 0 0;
+  font-size: clamp(1.55rem, 2.2vw, 2.2rem);
+  line-height: 1.1;
+  letter-spacing: 0.08em;
+}
